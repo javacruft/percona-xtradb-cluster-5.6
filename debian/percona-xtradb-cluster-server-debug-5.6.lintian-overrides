@@ -1,5 +1,0 @@
-# we are mysqld, we are going to look like libmysqlclient
-percona-xtradb-cluster-server-debug-5.6: embedded-library usr/bin/mysql-debug: libmysqlclient
-percona-xtradb-cluster-server-debug-5.6: embedded-library usr/sbin/mysqld-debug: libmysqlclient
-
-percona-xtradb-cluster-server-debug-5.6: binary-without-manpage usr/sbin/mysqld-debug
